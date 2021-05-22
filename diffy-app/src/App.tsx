@@ -6,7 +6,7 @@ import { getQueryString } from './utils'
 import strings from './strings'
 
 function App() {
-  const [startDate, endDate] = getQueryString(["startDate", "endDate"])
+  const [startDate, endDate] = getQueryString(["s", "e"])
 
   return (
     <div className="App">
