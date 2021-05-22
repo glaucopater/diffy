@@ -1,0 +1,14 @@
+.diffDateWrapper {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    place-items: center;
+}
+
+.diffDateList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    place-content: flex-start;
+    place-items: flex-start;
+}
